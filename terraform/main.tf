@@ -103,7 +103,7 @@ resource "aws_security_group_rule" "allow_ssh" {
 }
 
 /**** **** **** **** **** **** **** **** **** **** **** ****
-Explicitly accept HTTP traffic.
+Explicitly accept PostgreSQL traffic from our VPC.
 **** **** **** **** **** **** **** **** **** **** **** ****/
 
 resource "aws_security_group_rule" "allow_postgres" {
