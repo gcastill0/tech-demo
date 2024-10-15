@@ -5,7 +5,7 @@ This project focuses on deploying a microservices-based web application using **
 ## Infrastructure Deployment with Terraform
 
 We used **Terraform** to provision and manage the entire infrastructure:
-- **EKS Cluster**: The application is hosted on an EKS cluster, where a Webapp Frontend service and backend API are deployed as containerized applications. Terraform automates the provisioning and scaling of the EKS cluster, ensuring that resources are allocated efficiently.
+- **EKS Cluster**: The application is hosted on an EKS cluster, where a Webapp Frontend service and a Backend API are deployed as containerized applications. Terraform automates the provisioning and scaling of the EKS cluster, ensuring that resources are allocated efficiently.
 - **EC2 for PostgreSQL Database**: The PostgreSQL database is hosted on an EC2 instance. Using Terraform, we automated the creation of the EC2 instance, including the setup of security groups, storage, and networking configurations.
 
 ## Networking Architecture
