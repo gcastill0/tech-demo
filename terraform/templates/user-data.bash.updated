@@ -70,7 +70,14 @@ sudo -u postgres psql -d postgres -c "$PGCOMMAND"
 CIDR=$(ip -o -f inet addr show | awk '/scope global/ {print $4}')
 sudo echo "" >>  /etc/postgresql/$PGVERSION/main/pg_hba.conf
 sudo echo "# Allow scram-sha-256 authentication with the postgres user" >>  /etc/postgresql/$PGVERSION/main/pg_hba.conf
-sudo echo "hostssl    postgres       postgres        $CIDR        md5" >> /etc/postgresql/$PGVERSION/main/pg_hba.conf
+
+# The AKS cluster deploys across two availability zones and therefore
+# are more subnets to consider for lockdown. I may need to pass those
+# CIDRs as part of the environment variables map so we can apply them
+# to this configuration lock-down. For now, allow all connecitons and
+# rely on the security group which limits traffic within the VPC.
+#sudo echo "hostssl    postgres       postgres        $CIDR        md5" >> /etc/postgresql/$PGVERSION/main/pg_hba.conf
+sudo echo "hostssl    postgres       postgres        0.0.0.0/0    md5" >> /etc/postgresql/$PGVERSION/main/pg_hba.conf
 
 # Restart PostgreSQL:
 sudo systemctl restart postgresql.service
