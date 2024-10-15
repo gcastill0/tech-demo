@@ -1,0 +1,26 @@
+# examples
+examples
+
+# local credentials
+creds.bash
+
+# any local keys
+*.key
+*.pem
+
+# terraform state
+terraform.tfstate
+terraform.tfstate.lock.hcl
+terraform.tfstate.backup
+.terraform.tfstate.lock.info
+.terraform.lock.hcl
+.terraform
+
+# MacOS .DS_Store
+.DS_Store
+
+## Anything that may place our credentials at risk
+__pycache__
+
+## Any reduntant packages
+*.tar.gz

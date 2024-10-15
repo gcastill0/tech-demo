@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-api
+  labels:
+    app: backend-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend-api
+  template:
+    metadata:
+      labels:
+        app: backend-api
+    spec:
+      containers:
+      - name: backend-api
+        image: gcastill0/backend-api:latest
+        ports:
+        - containerPort: 5000
+        env:
+        - name: DB_NAME
+          valueFrom:
+            secretKeyRef:
+              name: db-connection-secrets
+              key: DB_NAME
+        - name: DB_PASS
+          valueFrom:
+            secretKeyRef:
+              name: db-connection-secrets
+              key: DB_PASS
+        - name: DB_USER
+          valueFrom:
+            secretKeyRef:
+              name: db-connection-secrets
+              key: DB_USER
+        - name: FQDN
+          valueFrom:
+            secretKeyRef:
+              name: db-connection-secrets
+              key: FQDN

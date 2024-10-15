@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webapp-frontend
+spec:
+  replicas: 2  # Two running instances
+  selector:
+    matchLabels:
+      app: webapp-frontend
+  template:
+    metadata:
+      labels:
+        app: webapp-frontend
+    spec:
+      containers:
+      - name: webapp-frontend-container
+        image: gcastill0/webapp-frontend:latest  # Your container image
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80  # Assuming your app listens on port 80
+        env:
+        - name: PREFIX
+          valueFrom:
+            secretKeyRef:
+              name: s3-identity-secrets
+              key: PREFIX
+        - name: POSTFIX
+          valueFrom:
+            secretKeyRef:
+              name: s3-identity-secrets
+              key: POSTFIX

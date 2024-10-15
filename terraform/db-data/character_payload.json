@@ -1,0 +1,382 @@
+[
+    {
+        "filename": "820765ba-919e-4a9f-9b35-7a09e2f56bc1",
+        "bot_name": "Luna",
+        "bot_story": "Luna is a robotic lynx with the ability to see in complete darkness and move silently, making her a perfect night-time hunter."
+    },
+    {
+        "filename": "d696c979-b679-4849-a32a-f19b72726e5c",
+        "bot_name": "Pixel",
+        "bot_story": "Pixel loves to explore the digital world, hopping from one device to another to solve tech mysteries."
+    },
+    {
+        "filename": "0d9a94e1-8d06-462c-afa6-71bc847e25ce",
+        "bot_name": "Quill",
+        "bot_story": "Quill is a robot with retractable quills, capable of shooting them as projectiles for defense."
+    },
+    {
+        "filename": "5ce2f381-bf49-4bb9-9b95-b7cfe9ec3ce3",
+        "bot_name": "Blizzard",
+        "bot_story": "Blizzard is a polar bear robot with the power to create blizzards and freeze enemies in their tracks."
+    },
+    {
+        "filename": "8ac8fa16-06ec-43e8-a89c-37754e3d0460",
+        "bot_name": "Slither",
+        "bot_story": "Slither is a robotic sidewinder, able to slither silently and strike swiftly with venomous fangs."
+    },
+    {
+        "filename": "bd928e6f-3f9d-465f-8451-9fd9276e9bd6",
+        "bot_name": "Blizzard",
+        "bot_story": "Blizzard is a polar bear robot with the power to create blizzards and freeze enemies in their tracks."
+    },
+    {
+        "filename": "e524c9e0-5800-4b37-a916-b18b79a4748e",
+        "bot_name": "Slither",
+        "bot_story": "Slither is a robotic sidewinder, able to slither silently and strike swiftly with venomous fangs."
+    },
+    {
+        "filename": "4ace2ecc-3684-47b5-a5b5-c808fc3e792d",
+        "bot_name": "Ripple",
+        "bot_story": "Ripple is a water-controlling robot who can create intricate water patterns and control tides."
+    },
+    {
+        "filename": "56f1ad5a-ac91-47fc-a6ce-a97a0b339383",
+        "bot_name": "Cinder",
+        "bot_story": "Cinder is a phoenix-inspired robot, able to burst into flames and regenerate from ashes after being defeated."
+    },
+    {
+        "filename": "29846ec7-2d4f-41f1-8cc0-b53a94433e15",
+        "bot_name": "Nina",
+        "bot_story": "Nina is a ninja-inspired robot, mastering the art of stealth and combat to protect the innocent."
+    },
+    {
+        "filename": "12e262b9-062e-43c5-baa5-c893416ed06c",
+        "bot_name": "Phoenix Wing",
+        "bot_story": "Phoenix Wing rises from the ashes, reborn with fiery power after each defeat in battle."
+    },
+    {
+        "filename": "10dd9615-1b37-4588-b167-b39fce6a96ab",
+        "bot_name": "Kai",
+        "bot_story": "Kai is a surfing robot, riding the waves and exploring the depths of the ocean for marine wonders."
+    },
+    {
+        "filename": "255815de-ec4f-4a6f-9426-c0c8e6430aea",
+        "bot_name": "Venom",
+        "bot_story": "Venom is a robotic viper, capable of delivering potent venomous strikes and paralyzing foes with a single bite."
+    },
+    {
+        "filename": "209e0466-7139-468c-81d9-cca11b391870",
+        "bot_name": "Zigzag",
+        "bot_story": "Zigzag is a robot with incredible agility and the ability to navigate through complex mazes effortlessly."
+    },
+    {
+        "filename": "d8b81b5e-51b3-49b2-a6cd-a88f164ea506",
+        "bot_name": "Magmabot",
+        "bot_story": "Magmabot is a molten menace, spewing lava and igniting the battlefield with fiery eruptions."
+    },
+    {
+        "filename": "4d63e0ab-b523-44fa-abed-9413cf4a4876",
+        "bot_name": "Volt",
+        "bot_story": "Volt is a robotic vulture, able to generate electric currents and disrupt electronic devices in the vicinity."
+    },
+    {
+        "filename": "e86c14bb-fd8d-4565-a866-2c04c45c26ef",
+        "bot_name": "Sizzle",
+        "bot_story": "Sizzle is a fiery robot capable of creating controlled explosions for various purposes."
+    },
+    {
+        "filename": "523faaac-ae8e-4a91-bc25-f3268cc8e2e5",
+        "bot_name": "Aegis",
+        "bot_story": "Aegis is a robotic knight, carrying a shield to protect comrades from harm on the battlefield."
+    },
+    {
+        "filename": "052adea9-ca14-4785-9906-b08daca1f054",
+        "bot_name": "Stormy",
+        "bot_story": "Stormy is a seagull-inspired robot with the power to control winds and create gusts that disorient and distract foes."
+    },
+    {
+        "filename": "0ef3f840-675c-4ae3-a1d1-3da64350ee20",
+        "bot_name": "Felix",
+        "bot_story": "Felix is a mischievous robot prankster, always pulling playful tricks on friends and foes alike."
+    },
+    {
+        "filename": "5252eacf-99df-453f-90bf-438d916d5222",
+        "bot_name": "Solara",
+        "bot_story": "Solara harnesses the power of the sun, radiating intense heat and blinding light to disorient adversaries."
+    },
+    {
+        "filename": "fe425114-0756-4f56-be5e-f26e07b8ba26",
+        "bot_name": "Pyro",
+        "bot_story": "Pyro is a salamander robot with the ability to breathe fire, turning the battlefield into a fiery inferno."
+    },
+    {
+        "filename": "ceb17c4d-1cd7-4407-9221-12204d6ca5e0",
+        "bot_name": "Avalanche",
+        "bot_story": "Avalanche controls ice and snow, creating avalanches to bury foes and freeze their advance."
+    },
+    {
+        "filename": "cf207a46-4d69-422e-9210-6e1be5a2b2ca",
+        "bot_name": "Phoenix",
+        "bot_story": "Phoenix is a firebird-inspired robot, able to burst into flames and regenerate from ashes after being defeated."
+    },
+    {
+        "filename": "ac8a08bf-a400-4010-9197-b180bb5bb5bb",
+        "bot_name": "Harmony",
+        "bot_story": "Harmony is a robot musician with the ability to create soothing melodies and manipulate sound waves."
+    },
+    {
+        "filename": "b8fc3091-a321-4975-908c-bf950fee3581",
+        "bot_name": "Ironclad",
+        "bot_story": "Ironclad is encased in impenetrable armor, making them nearly invulnerable to attacks in combat."
+    },
+    {
+        "filename": "2c77e1ea-8bb4-49ba-a5cc-4524fbfd597a",
+        "bot_name": "Feather",
+        "bot_story": "Feather is a robotic falcon with keen eyesight and the ability to dive at incredible speeds, striking with pinpoint accuracy."
+    },
+    {
+        "filename": "51eb1b0a-efe6-4a95-a085-24b52690692f",
+        "bot_name": "Shadowstrike",
+        "bot_story": "Shadowstrike operates in the shadows, using stealth and precision to eliminate foes undetected."
+    },
+    {
+        "filename": "51cd478b-64ad-48b0-8061-a0d14f4383bd",
+        "bot_name": "Crimson Blade",
+        "bot_story": "Crimson Blade wields a blade infused with red-hot energy, cutting through enemies with precision."
+    },
+    {
+        "filename": "c37d1b1f-9bd1-4ae2-a5a6-1c36b1f64a2d",
+        "bot_name": "Max",
+        "bot_story": "Max is a deep-sea explorer robot, diving into the abyss to uncover underwater mysteries."
+    },
+    {
+        "filename": "2106ff69-1ac5-42e1-b043-5aa5a88909b3",
+        "bot_name": "Aqua",
+        "bot_story": "Aqua is an angelfish-inspired robot with the ability to control water and create aquatic barriers to protect allies."
+    },
+    {
+        "filename": "bb206438-fa5f-44f6-aeb0-fe5d81a61fc8",
+        "bot_name": "Roxy",
+        "bot_story": "Roxy was designed to navigate tight spaces with her agile robotic limbs, making her a stealthy and cunning infiltrator."
+    },
+    {
+        "filename": "38f0e4a8-9506-4903-8e73-facd38221e61",
+        "bot_name": "Blink",
+        "bot_story": "Blink is a robot with the power of teleportation, able to instantly move from one place to another."
+    },
+    {
+        "filename": "a5d41f68-c67a-444d-8ff3-849f1ad94daa",
+        "bot_name": "Bolt",
+        "bot_story": "Bolt was designed for speed, and races across the land with lightning-fast agility."
+    },
+    {
+        "filename": "7080f27a-f2a8-49ec-ac40-71355527a593",
+        "bot_name": "Magma",
+        "bot_story": "Magma is a mongoose-like robot with the power to manipulate molten lava, creating fiery eruptions."
+    },
+    {
+        "filename": "c7b7228e-ebab-4fa0-a7e4-f04273aa96d7",
+        "bot_name": "Mystic",
+        "bot_story": "Mystic is a chameleon-like robot with the power of camouflage, blending seamlessly into surroundings and ambushing enemies."
+    },
+    {
+        "filename": "f3d0411d-8ef9-4bf1-9c3a-52c3a6f44815",
+        "bot_name": "Rumble",
+        "bot_story": "Rumble is a robotic rabbit with incredible agility, capable of dodging attacks with lightning-fast movements."
+    },
+    {
+        "filename": "b1901270-514a-43d5-a3c2-a03c9b89c938",
+        "bot_name": "Rustle",
+        "bot_story": "Rustle is a robotic rattlesnake, known for his deadly venomous strikes and rattling tail that warns foes of danger."
+    },
+    {
+        "filename": "49ed60ef-0cbb-43bc-a5fa-597885c4da6c",
+        "bot_name": "Venom",
+        "bot_story": "Venom is a robotic viper, capable of delivering potent venomous strikes and paralyzing foes with a single bite."
+    },
+    {
+        "filename": "b0f910f2-b49f-4891-b159-461b7a18a7f0",
+        "bot_name": "Polly",
+        "bot_story": "Polly is a dazzling robotic peacock with the power to mesmerize enemies with her vibrant feather displays, leaving them open to attack."
+    },
+    {
+        "filename": "90764ad8-c229-478d-9a0e-aa3852b14819",
+        "bot_name": "Thunderstrike",
+        "bot_story": "Thunderstrike commands the power of lightning, striking foes with electrifying force in battle."
+    },
+    {
+        "filename": "46fbb462-aefa-437f-bb17-7df3c9f5903b",
+        "bot_name": "Echo",
+        "bot_story": "Echo is a robot with exceptional acoustic abilities, able to create sound illusions and mimic voices."
+    },
+    {
+        "filename": "5c7a6305-bfb9-4115-aef9-9ec356dc0738",
+        "bot_name": "Sonic",
+        "bot_story": "Sonic may be a sloth, but he is a robot with the ability to manipulate time, allowing him to move at incredible speeds when needed."
+    },
+    {
+        "filename": "ba3ea7d5-ebd1-486d-bdd3-53b25bd178a6",
+        "bot_name": "Spectral Knight",
+        "bot_story": "Spectral Knight is a ghostly warrior, able to phase through objects and surprise enemies."
+    },
+    {
+        "filename": "fa3aeac2-4e5c-46d7-aae0-65f6422d81f3",
+        "bot_name": "Geyser",
+        "bot_story": "Geyser is a giraffe-like robot, able to shoot powerful streams of water from her neck, creating high-pressure attacks."
+    },
+    {
+        "filename": "53483f0f-af38-4b52-b320-22f619c99347",
+        "bot_name": "Chill",
+        "bot_story": "Chill is a robot with the power to freeze objects and create ice structures for various uses."
+    },
+    {
+        "filename": "a2f69e83-b6dd-40dd-bda8-f6147d39e6d0",
+        "bot_name": "Sonic",
+        "bot_story": "Sonic is a robot with supersonic speed, able to break sound barriers and create shockwaves."
+    },
+    {
+        "filename": "b7e6989e-3f14-4ccb-bd59-22c790ed9ae2",
+        "bot_name": "Daisy",
+        "bot_story": "Daisy is a cheerful robot with a talent for bringing smiles to everyone with her joyful dances."
+    },
+    {
+        "filename": "b60407fe-382f-49b1-ab8b-aac7a05d750f",
+        "bot_name": "Eclipse",
+        "bot_story": "Eclipse engulfs enemies in darkness, blinding them and making retreat the only option."
+    },
+    {
+        "filename": "733297bc-aec3-46a3-8456-d735bcf37bdd",
+        "bot_name": "Ninja",
+        "bot_story": "Ninja is a ninja-themed robotic rat with incredible agility and stealth, able to strike silently and vanish into shadows."
+    },
+    {
+        "filename": "8433a41b-e30e-4789-8571-7ca976aa483b",
+        "bot_name": "Quake",
+        "bot_story": "Quake is an aardvark-inspired robot, able to create tremors and dig tunnels underground for surprise attacks."
+    },
+    {
+        "filename": "da5a1e56-df7d-43e5-86e1-6aeff3d85691",
+        "bot_name": "Serpentine",
+        "bot_story": "Serpentine is a robotic serpent, able to coil and constrict foes with incredible strength, squeezing the life out of them."
+    },
+    {
+        "filename": "e94e152e-ca86-45a2-a5b7-3d2577ef1655",
+        "bot_name": "Tempest",
+        "bot_story": "Tempest is a tempestuous robot warrior, conjuring storms and tidal waves to overwhelm foes."
+    },
+    {
+        "filename": "d43dbed3-1ed8-44bf-b5dc-bb3eb94f9c23",
+        "bot_name": "Candy",
+        "bot_story": "Candy is a sweet-loving robot who can conjure sugary treats to delight anyone."
+    },
+    {
+        "filename": "190dc7e1-1792-4cdc-b14b-6ce7797886a6",
+        "bot_name": "Petal",
+        "bot_story": "Petal is a nature-loving bot with the power to control and nurture plant life wherever they go."
+    },
+    {
+        "filename": "7abfb66e-4114-49d2-8d9d-d54ca6c2309c",
+        "bot_name": "Rumble",
+        "bot_story": "Rumble is a robotic rabbit with incredible agility, capable of dodging attacks with lightning-fast movements."
+    },
+    {
+        "filename": "65720a96-56d2-466b-8e78-68a516abb888",
+        "bot_name": "Zephyr",
+        "bot_story": "Zephyr is a wind-controlling robot who can create powerful gusts and breezes at will."
+    },
+    {
+        "filename": "9ea514bf-7af0-4b2b-89a4-f2abd37d62c0",
+        "bot_name": "Quake",
+        "bot_story": "Quake is a robot with seismic powers, able to create earthquakes and disrupt the ground beneath foes."
+    },
+    {
+        "filename": "6560f970-84de-4fbe-9ee8-59162e8484db",
+        "bot_name": "Gearbox",
+        "bot_story": "Gearbox is a robot engineer who can create and repair machines with incredible precision."
+    },
+    {
+        "filename": "1130863e-10f1-41c5-8466-d354bb11a305",
+        "bot_name": "Zephyr",
+        "bot_story": "Zephyr is a swift and agile robot zebra, known for his incredible speed and the ability to create blinding dust storms."
+    },
+    {
+        "filename": "1ab5db63-99c2-43f8-8b94-f73a36053119",
+        "bot_name": "Ricochet",
+        "bot_story": "Ricochet is a robot marksman with perfect aim, able to bounce shots off surfaces for precision attacks."
+    },
+    {
+        "filename": "a9f5becc-ac58-44ee-91fb-34fd5fc85d20",
+        "bot_name": "Ivy",
+        "bot_story": "Ivy is a forest ranger robot, protecting wildlife and preserving the natural world."
+    },
+    {
+        "filename": "cd15f509-43bb-4c58-babf-4527c9d28375",
+        "bot_name": "Cogs",
+        "bot_story": "A master of machinery, Cogs can fix and build anything, making them indispensable to their friends."
+    },
+    {
+        "filename": "719b56af-cb54-4910-a5df-5d01300a826a",
+        "bot_name": "Gizmo",
+        "bot_story": "Gizmo is a gadget-loving bot who can transform into various tools and devices to assist their team."
+    },
+    {
+        "filename": "c2ce3be3-50b5-4071-916e-bfc44fd7894c",
+        "bot_name": "Thunder",
+        "bot_story": "Thunder is a robotic bull with incredible strength and the ability to create shockwaves with powerful stomps."
+    },
+    {
+        "filename": "b09d6687-f851-48a4-9621-d03c6300bbf8",
+        "bot_name": "Breeze",
+        "bot_story": "Breeze is a robotic buzzard, able to soar high above the battlefield and spot enemy weaknesses for precision strikes."
+    },
+    {
+        "filename": "9671f27a-a6f3-4a47-ac02-075640452ec5",
+        "bot_name": "Aquaflame",
+        "bot_story": "Aquaflame wields the fusion of water and fire, creating scalding steam and fiery waves."
+    },
+    {
+        "filename": "f78811d1-bf74-4944-948e-00f79accd1f2",
+        "bot_name": "Flora",
+        "bot_story": "Flora is a robotic foxglove, with the power to control plant life and create deadly thorny barriers."
+    },
+    {
+        "filename": "0edd43eb-2049-496d-9ed1-549c9ce52663",
+        "bot_name": "Magma",
+        "bot_story": "Magma is a robotic mole, capable of tunneling through the earth at astonishing speeds and creating seismic disruptions."
+    },
+    {
+        "filename": "e1feff32-aab9-4458-8eba-f61a69d86027",
+        "bot_name": "Phoenix",
+        "bot_story": "Phoenix is a robot with the power of rebirth, able to regenerate and heal from damage over time."
+    },
+    {
+        "filename": "d0a727f4-22e5-4f95-89e3-512dec3fc396",
+        "bot_name": "Toby",
+        "bot_story": "Toby is an inventor with a knack for creating incredible gadgets to aid in adventures."
+    },
+    {
+        "filename": "6efb11b8-ef24-4231-9852-60e12383dc15",
+        "bot_name": "Sasha",
+        "bot_story": "Sasha is a starship pilot bot, navigating through the cosmos in search of distant galaxies."
+    },
+    {
+        "filename": "2cc924ea-7d34-416f-bf86-0854f4a00d36",
+        "bot_name": "Phoenix",
+        "bot_story": "Phoenix is a firebird-inspired robot, able to burst into flames and regenerate from ashes after being defeated."
+    },
+    {
+        "filename": "a80094a6-4ce8-47c9-9d12-9ea1d22ed428",
+        "bot_name": "Geyser",
+        "bot_story": "Geyser is a giraffe-like robot, able to shoot powerful streams of water from her neck, creating high-pressure attacks."
+    },
+    {
+        "filename": "8f0b724a-a44e-48c3-8256-8b1daf28f39b",
+        "bot_name": "Piper",
+        "bot_story": "Piper is a musical robot, using her melodious tunes to soothe hearts and inspire creativity."
+    },
+    {
+        "filename": "6cfef09b-a846-49db-b54f-a6415c2d2213",
+        "bot_name": "Disruptor",
+        "bot_story": "Disruptor sabotages enemy technology, causing malfunctions and chaos on the battlefield."
+    }
+]
