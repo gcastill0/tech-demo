@@ -1,0 +1,12 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: webapp-cluster-admin-binding    # Name of the ClusterRoleBinding
+subjects:
+- kind: ServiceAccount
+  name: webapp-sa                       # Name of the ServiceAccount you created
+  namespace: default                    # Namespace where the ServiceAccount is created
+roleRef:
+  kind: ClusterRole
+  name: cluster-admin                   # Grants cluster-admin privileges
+  apiGroup: rbac.authorization.k8s.io

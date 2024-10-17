@@ -12,6 +12,7 @@ spec:
       labels:
         app: webapp-frontend
     spec:
+      # serviceAccountName: webapp-sa  # Use the ServiceAccount with cluster-admin privileges
       containers:
       - name: webapp-frontend-container
         image: gcastill0/webapp-frontend:latest  # Your container image
