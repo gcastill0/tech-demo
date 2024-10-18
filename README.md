@@ -2,6 +2,12 @@
 
 This project focuses on deploying a microservices-based web application using **Kubernetes (EKS)** and **EC2** for database hosting, leveraging **Terraform** for automated infrastructure provisioning. The setup includes both public and private networking layers, ensuring that critical services like the backend API and database are securely isolated, while the frontend remains publicly accessible.
 
+---
+
+In this exercise, we look to build the following enviornment:
+
+![Target Environment](images/slide_01.png)
+
 ## Infrastructure Deployment with Terraform
 
 We used **Terraform** to provision and manage the entire infrastructure:
