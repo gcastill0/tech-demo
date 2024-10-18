@@ -1,18 +1,19 @@
-apiVersion: networking.k8s.io/v1
-kind: Ingress
+apiVersion: v1
+kind: Service
 metadata:
   name: webapp-frontend-ingress
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
+    service.beta.kubernetes.io/aws-load-balancer-type: nlb
+    service.beta.kubernetes.io/aws-load-balancer-internal: "false"  # Ensure it's an external Load Balancer
 spec:
-  rules:
-  - host: webapp-frontend.internal.com  # Replace with your domain or IP
-    http:
-      paths:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: webapp-frontend-service
-            port:
-              number: 80
+  type: LoadBalancer
+  externalTrafficPolicy: Local  # Preserve external IP addresses
+  ports:
+    - name: http
+      port: 80
+      targetPort: 80
+    - name: https
+      port: 443
+      targetPort: 443
+  selector:
+    app: webapp-frontend
