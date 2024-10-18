@@ -27,11 +27,13 @@ The infrastructure is divided into **public and private networks** to ensure sec
 
 ![Network Alignment](images/slide_10.png)
 
-## Backend API and Database Integration
+## Database and Data Persistance
 
 The **backend API** connects to a **PostgreSQL database** hosted on an EC2 instance. Key aspects include:
 - **Data Persistence**: The PostgreSQL database is the primary data store for the application, with a focus on high availability and secure internal networking.
 - **Backup Process**: Automated backups of the PostgreSQL database are configured, with simple database dumps stored in an AWS S3 bucket. The data is regularly backed up with a custom Linux service unit.
+
+![Database](images/slide_07.png)
 
 ## Kubernetes and Security Configuration
 
@@ -39,3 +41,5 @@ The project leverages Kubernetes networking and security best practices:
 - **Internal-Only Backend API**: The backend API is exposed only within the Kubernetes cluster through a **ClusterIP** service, ensuring it is not accessible from the public internet.
 - **Public Frontend via Ingress Controller**: The frontend web application is exposed via an NGINX Ingress Controller, enabling secure public access while routing requests to the backend internally.
 - **Role-Based Access Control (RBAC)**: Kubernetes **RBAC** is used to control permissions and access for resources within the cluster, ensuring that only authorized users and services can access sensitive components.
+
+![Kubernets](images/slide_09.png)
