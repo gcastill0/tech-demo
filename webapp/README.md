@@ -16,7 +16,7 @@ aws eks --region us-east-1 update-kubeconfig --name wiz-eks-cluster
 
 ---
 
-Ideally we want to set the `externalTrafficPolicy=Local` to ensur that external IP addresses are preserved and routed correctly through the Internet Gateway.
+Ideally we want to set the `externalTrafficPolicy=Local` to ensure that external IP addresses are preserved and routed correctly through the Internet Gateway.
 
 ```bash
 helm upgrade nginx-ingress ingress-nginx/ingress-nginx \
@@ -29,18 +29,20 @@ This means including addittional annotations to the `nginx-ingress` service as f
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-ingress
-  namespace: ingress-nginx
+  name: webapp-frontend-ingress
   annotations:
-    service.beta.kubernetes.io/aws-load-balancer-type: nlb  # Or 'classic'
+    service.beta.kubernetes.io/aws-load-balancer-type: nlb
     service.beta.kubernetes.io/aws-load-balancer-internal: "false"  # Ensure it's an external Load Balancer
 spec:
   type: LoadBalancer
+  externalTrafficPolicy: Local  # Preserve external IP addresses
   ports:
-  - port: 80
-    targetPort: 80
-    protocol: TCP
+    - name: http
+      port: 80
+      targetPort: 80
+    - name: https
+      port: 443
+      targetPort: 443
   selector:
-    app: nginx-ingress
-
+    app: webapp-frontend
 ```
