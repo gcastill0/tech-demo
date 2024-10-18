@@ -14,12 +14,18 @@ We used **Terraform** to provision and manage the entire infrastructure:
 - **EKS Cluster**: The application is hosted on an EKS cluster, where a Webapp Frontend service and a Backend API are deployed as containerized applications. Terraform automates the provisioning and scaling of the EKS cluster, ensuring that resources are allocated efficiently.
 - **EC2 for PostgreSQL Database**: The PostgreSQL database is hosted on an EC2 instance. Using Terraform, we automated the creation of the EC2 instance, including the setup of security groups, storage, and networking configurations.
 
+In terms of function, these are the areas of infrastrucure:
+
+![AWS Services](images/slide_02.png)
+
 ## Networking Architecture
 
 The infrastructure is divided into **public and private networks** to ensure security and isolation of services:
 - **Private Network**: The backend API and PostgreSQL database reside in the private subnets, which are inaccessible from the public internet. This ensures that sensitive services remain isolated and are only accessible from within the Kubernetes cluster or through controlled ingress rules.
 - **Public Network**: The frontend web application is hosted on the EKS cluster and is exposed to the internet via a **Kubernetes Ingress Controller**. External users can access the application, but all communication with the backend is routed internally within the cluster.
 - **Internet Gateway**: The **Internet Gateway** provides secure outbound access for services within the private network, such as the backend API and database, enabling them to access external resources, such as AWS S3 for backups.
+
+![Network Alignment](images/slide_10.png)
 
 ## Backend API and Database Integration
 
