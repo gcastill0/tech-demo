@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: fake-aks-admin
+spec:
+  serviceAccountName: webapp-sa  # Use the ServiceAccount with cluster-admin privileges
+  containers:
+  - name: fake-aks-admin
+    image: busybox
+    command: ["sh", "-c", "while true; do echo date' Sleeping for 60 seconds.'; sleep 60; done"]
