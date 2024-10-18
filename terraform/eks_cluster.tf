@@ -75,8 +75,8 @@ resource "kubernetes_secret" "s3_secrets" {
 }
 
   data = {
-    PREFIX   = var.prefix
-    POSTFIX  = random_id.secret_postfix.hex
+    PREFIX   = var.prefix                     # To retreive the S3 bucket with assets
+    POSTFIX  = random_id.secret_postfix.hex   # To retreive the S3 bucket with assets
   }
 }
 
