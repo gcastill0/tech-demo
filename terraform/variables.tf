@@ -2,7 +2,7 @@
 Prefix is here to emulate a required naming convention.
 **** **** **** **** **** **** **** **** **** **** **** ****/
 variable "prefix" {
-  default = "wiz"
+  default = "tech"
 }
 
 /**** **** **** **** **** **** **** **** **** **** **** ****
@@ -18,7 +18,7 @@ variable "tags" {
     Keep         = "True"
     Owner        = "Gilberto"
     Region       = "US-EAST-1"
-    Purpose      = "Wiz Tech Exercise"
+    Purpose      = "Tech Exercise"
     Environment  = "Dev"
   }
 }
