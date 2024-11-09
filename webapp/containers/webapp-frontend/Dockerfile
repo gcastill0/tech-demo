@@ -9,9 +9,6 @@ COPY htdocs /var/www/localhost/htdocs
 # Copy the proxy file
 COPY backend-proxy.conf /etc/apache2/conf.d/backend-proxy.conf
 
-# Copy the required wizexercise.txt file
-COPY wizexercise.txt ./
-
 # Set the working directory
 WORKDIR /usr/src/app
 

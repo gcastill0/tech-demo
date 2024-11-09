@@ -91,13 +91,13 @@ Apply complete! Resources: 14 added, 0 changed, 0 destroyed.
 
 Outputs:
 
-ssh_access = "ssh -i wiz-ng-ssh-key.pem ubuntu@111.22.3.44"
+ssh_access = "ssh -i tech-ng-ssh-key.pem ubuntu@111.22.3.44"
 ```
 
 ## Accessing your instance
 
 ```bash
-ssh -i wiz-ng-ssh-key.pem ubuntu@111.22.3.44
+ssh -i tech-ng-ssh-key.pem ubuntu@111.22.3.44
 
 The authenticity of host '111.22.3.44 (111.22.3.44)' can't be established.
 AB12345 key fingerprint is SHA256:AB0abcdefghiCkDEl9m2FGHAnopIqrsJtKuLvMNOPQR.

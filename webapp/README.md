@@ -11,7 +11,7 @@ helm install nginx-ingress ingress-nginx/ingress-nginx
 ### Manage the EKS cluster 
 
 ```bash
-aws eks --region us-east-1 update-kubeconfig --name wiz-eks-cluster
+aws eks --region us-east-1 update-kubeconfig --name tech-eks-cluster
 ```
 
 ---

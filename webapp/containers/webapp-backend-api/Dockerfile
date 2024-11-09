@@ -15,9 +15,6 @@ WORKDIR /usr/src/app
 # Copy the requirements file first to cache dependencies
 COPY requirements.txt ./
 
-# Copy the required wizexercise.txt file
-COPY wizexercise.txt ./
-
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
